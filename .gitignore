@@ -1,0 +1,57 @@
+dataset (1).csv
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+.venv/
+
+# Environment name file (if named 'env_name')
+env_name
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Model files and large data
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.onnx
+models/
+checkpoints/
+
+# Datasets
+data/
+datasets/
+*.csv
+*.xlsx
+
+# Environment variable files
+.env
+*.env
+
+# Python packaging
+build/
+dist/
+*.egg-info/
